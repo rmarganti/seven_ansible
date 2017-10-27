@@ -1,0 +1,10 @@
+# vim:ft=ansible:
+---
+mysql_databases:
+  - name: example_db
+mysql_users:
+  - name: vagrant
+    host: "%"
+    password: "vagrant"
+    priv: "*:ALL"
+mysql_root_password: "root"

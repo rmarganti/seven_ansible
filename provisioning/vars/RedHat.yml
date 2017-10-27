@@ -1,0 +1,19 @@
+# vim:ft=ansible:
+---
+php_packages:
+  - "php"
+  - "php-cli"
+  - "php-common"
+  - "php-devel"
+  - "php-fpm"
+  - "php-gd"
+  - "php-imap"
+  - "php-ldap"
+  - "php-mbstring"
+  - "php-opcache"
+  - "php-pdo"
+  - "php-pear"
+  - "php-pecl-apcu"
+  - "php-xml"
+  - "php-xmlrpc"
+  - "php-mcrypt"

@@ -1,0 +1,6 @@
+# vim:ft=ansible:
+---
+- name: installs spacewalk
+  yum:
+    name: http://yum.spacewalkproject.org/2.6/RHEL/7/x86_64/spacewalk-repo-2.6-0.el7.noarch.rpm
+    state: present

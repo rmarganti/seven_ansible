@@ -1,0 +1,17 @@
+# vim:ft=ansible:
+---
+- name: Include OS-specific variables.
+  include_vars: "{{ ansible_os_family }}.yml"
+- include_tasks: tasks/init-redhat.yml
+  when: ansible_os_family == 'RedHat'
+  static: no
+- name: Install base packages
+  include_tasks: tasks/install.yml
+  with_items:
+  - vim
+  - wget
+  - telnet
+  - zip
+  - unzip
+  - curl
+  - tree

@@ -1,0 +1,8 @@
+# vim:ft=ansible:
+---
+installed_extras:
+  - redis
+  - nodejs
+  - beanstalkd
+  - supervisord
+  - xdebug

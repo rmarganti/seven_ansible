@@ -1,0 +1,4 @@
+# vim:ft=ansible:
+---
+- name: "Installing package: {{ item }}"
+  action: "{{ ansible_pkg_mgr  }} pkg={{ item }} state=present"

@@ -1,0 +1,4 @@
+# vim:ft=ansible:
+---
+nodejs_version: "7.x"
+
