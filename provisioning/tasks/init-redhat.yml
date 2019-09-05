@@ -2,5 +2,5 @@
 ---
 - name: installs spacewalk
   yum:
-    name: http://yum.spacewalkproject.org/2.6/RHEL/7/x86_64/spacewalk-repo-2.6-0.el7.noarch.rpm
+    name: https://copr-be.cloud.fedoraproject.org/results/@spacewalkproject/spacewalk-2.9/epel-7-x86_64/00912457-spacewalk-repo/spacewalk-repo-2.9-4.el7.noarch.rpm
     state: present
