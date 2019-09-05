@@ -6,5 +6,5 @@ mysql_users:
   - name: vagrant
     host: "%"
     password: "vagrant"
-    priv: "*:ALL"
+    priv: "*.*:ALL"
 mysql_root_password: "root"
